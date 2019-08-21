@@ -1,5 +1,5 @@
 {
-  "name": "vue2-modal",
+  "name": "@pderas/vue2-modal",
   "version": "1.5.2",
   "description": "An easy to use vue 2 modal component for showing and hiding modals",
   "main": "index.js",
@@ -7,8 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kotarCreative/vue2-modal.git"
+      "type": "git",
+      "url": "git@github.com:PDERAS/vue2-modal.git"
+  },
+  "publishConfig": {
+      "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "vue2",
